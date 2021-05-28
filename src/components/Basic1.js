@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 
 const Basic1 = () => {
 
@@ -21,4 +21,4 @@ const Basic1 = () => {
   )
 }
 
-export default Basic1
+export default Basic1;
