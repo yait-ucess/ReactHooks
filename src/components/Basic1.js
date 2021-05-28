@@ -1,15 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-const basic1 = (props) => {
+const Basic1 = (props) => {
   const clickHandler = () => {
     console.log("成功");
   };
+
+  const [count, setCount] = useState(0)
+
   return (
     <>
-      <button onClick={clickHandler}>Click</button>
+      <button onClick={() => {setCount(prevCount=>prevCount+1); setCount(prevCount=>prevCount+1);}}>Count {count} </button>
       <h1>You are {props.name} </h1>
     </>
   )
 }
 
-export default basic1
+export default Basic1
