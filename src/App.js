@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import UseEffect from "./components/UseEffect";
+// import UseEffect from './components/UseEffect';
+import TimerContainer from './components/TimerContainer';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/* <Basic1 /> */}
         {/* <Basic2 name="successful man" /> */}
-        <UseEffect />
+        {/* <UseEffect /> */}
+        <TimerContainer />
       </header>
     </div>
   );
