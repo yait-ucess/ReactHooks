@@ -4,6 +4,7 @@ import './App.css';
 // import TimerContainer from './components/TimerContainer';
 // import ApiFetch from './components/ApiFetch';
 import AppContext from './contexts/AppContext';
+import B from './components/B';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           {/* <Basic2 name="successful man" /> */}
           {/* <UseEffect /> */}
           {/* <TimerContainer /> */}
-          <ApiFetch />
+          {/* <ApiFetch /> */}
+          <B />
         </header>
       </div>
     </AppContext.Provider>
